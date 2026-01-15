@@ -1,10 +1,10 @@
-UIDAI Data Hackathon 2026
+## UIDAI Data Hackathon 2026
 Aadhaar Enrolment & Update Lifecycle Analysis
-Author: RITESH VERMA
-Hackathon: UIDAI Data Hackathon 2026
+Author: **RITESH VERMA**
+Hackathon: **UIDAI Data Hackathon 2026**
 
 
-Project Overview
+## Project Overview
 
 This project analyzes Aadhaar enrolment, biometric update, and demographic update data published for the UIDAI Data Hackathon 2026. The objective is to understand how Aadhaar usage has evolved from a one-time enrolment system to a lifecycle identity platform driven by continuous updates.
 
@@ -12,11 +12,11 @@ The analysis focuses on identifying temporal trends, geographic concentration, a
 
 Rather than building predictive models, the project emphasizes interpretability, operational relevance, and actionable insights, aligned with real-world policy and resource constraints.
 
-Problem Statement
+## Problem Statement
 
 Traditional Aadhaar planning approaches often rely heavily on enrolment volumes to estimate service demand. However, as Aadhaar coverage matures, operational workload is increasingly driven by biometric and demographic updates.
 
-This project aims to answer:
+### This project aims to answer:
 
 How do enrolment and update patterns differ over time and geography?
 
@@ -26,7 +26,7 @@ Where does update demand exceed what enrolment numbers alone would suggest?
 
 How can UIDAI optimize planning using data-driven indicators?
 
-Data Description
+## Data Description
 
 The analysis uses three anonymized, aggregated datasets provided as part of the hackathon:
 
@@ -36,7 +36,7 @@ Biometric Dataset – Biometric update activity by age group
 
 Demographic Dataset – Demographic detail updates by age group
 
-Key characteristics:
+## Key characteristics:
 
 Policy-safe and privacy-preserving
 
@@ -44,11 +44,11 @@ Date-wise and geography-wise aggregation
 
 Coverage across 50+ states, ~1,000 districts, and ~20,000 pincodes
 
-Analytical Approach
+## Analytical Approach
 
 The project follows a structured, decision-oriented workflow:
 
-1. Data Understanding
+### 1. Data Understanding
 
 Schema validation and consistency checks
 
@@ -56,7 +56,7 @@ Temporal coverage verification
 
 Geographic coverage assessment (state, district, pincode)
 
-2. Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 
 National-level temporal trends
 
@@ -68,7 +68,7 @@ Enrolment vs update comparison
 
 Update–enrolment gap analysis
 
-3. Insight Synthesis
+### 3. Insight Synthesis
 
 Identification of lifecycle-driven Aadhaar usage
 
@@ -76,7 +76,7 @@ Development of update load indices
 
 Translation of patterns into operational implications
 
-Key Findings
+## Key Findings
 
 Aadhaar enrolment is now largely driven by children, indicating adult enrolment saturation.
 
@@ -88,7 +88,7 @@ Enrolment volumes alone do not reliably predict operational pressure.
 
 Several districts exhibit high update demand despite moderate enrolment levels, representing hidden service bottlenecks.
 
-Actionable Recommendations
+## Actionable Recommendations
 
 The project proposes practical, resource-aware recommendations, including:
 
@@ -104,7 +104,7 @@ Strengthening district-level planning guidelines
 
 These recommendations are designed to be feasible within existing UIDAI operational and policy frameworks.
 
-Expected Impact
+## Expected Impact
 
 Improved service availability in high-demand districts
 
@@ -116,7 +116,7 @@ Data-driven, transparent planning processes
 
 Long-term sustainability of Aadhaar services as a lifecycle identity system
 
-Limitations & Assumptions
+## Limitations & Assumptions
 
 Analysis is based on aggregated data; individual-level behavior is not observed.
 
@@ -128,7 +128,7 @@ Service quality indicators (e.g., wait times) are not directly measured.
 
 Despite these limitations, the datasets provide sufficient coverage to identify meaningful operational patterns.
 
-📁 Repository Structure
+## 📁 Repository Structure
 UIDAI-DATA-HACKATHON/
 │
 ├── data/
@@ -147,7 +147,7 @@ UIDAI-DATA-HACKATHON/
 │
 └── README.md
 
-How to Run
+## How to Run
 
 Clone the repository
 
@@ -163,6 +163,6 @@ Run notebooks sequentially:
 
 All analysis is reproducible using standard Python data science libraries.
 
-Conclusion
+## Conclusion
 
 This project demonstrates how Aadhaar data can be used to move beyond enrolment-centric assumptions and toward update-aware, location-specific planning. By focusing on operational relevance and decision-ready insights, the analysis provides a practical foundation for improving UIDAI service efficiency and sustainability.
